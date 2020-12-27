@@ -352,6 +352,10 @@ appliedenergistics2:tile.ChiseledQuartzSlabBlock:0, Chiseled Certus Quartz Slabs
 appliedenergistics2:tile.ChiseledQuartzSlabBlock.double:0, Chiseled Certus Quartz Slabs
 appliedenergistics2:tile.QuartzPillarSlabBlock:0, Certus Quartz Pillar Slabs
 appliedenergistics2:tile.QuartzPillarSlabBlock.double:0, Certus Quartz Pillar Slabs
+ae2stuff:Encoder, Pattern Encoder
+ae2stuff:Grower, Crystal Growth Chamber
+ae2stuff:Inscriber, Advanced Inscriber
+ae2stuff:Wireless, Wireless Connector
 GalacticraftCore:tile.crudeOilStill, Crude Oil
 GalacticraftCore:tile.fuel, Fuel
 GalacticraftCore:tile.landingPad:0, Rocket Launch Pad
@@ -367,10 +371,6 @@ GalacticraftCore:tile.oxygenCompressor:0, Oxygen Compressor
 GalacticraftCore:tile.oxygenCompressor:4, Oxygen Decompressor
 GalacticraftCore:tile.distributor, Oxygen Bubble Distributor
 GalacticraftCore:tile.sealer, Oxygen Sealer
-GalacticraftCore:tile.oxygenDetector, Oxygen Detector
-GalacticraftCore:tile.oxygenPipe, Oxygen Pipe
-GalacticraftCore:tile.refinery, Refinery
-GalacticraftCore:tile.fuelLoader, Fuel Loader
 minecraft:iron_shovel, Iron Shovel
 minecraft:iron_pickaxe, Iron Pickaxe
 minecraft:iron_axe, Iron Axe
@@ -628,6 +628,10 @@ minecraft:netherbrick, Nether Brick
 minecraft:quartz, Nether Quartz
 minecraft:tnt_minecart, Minecart with TNT
 minecraft:hopper_minecart, Minecart with Hopper
+GalacticraftCore:tile.oxygenDetector, Oxygen Detector
+GalacticraftCore:tile.oxygenPipe, Oxygen Pipe
+GalacticraftCore:tile.refinery, Refinery
+GalacticraftCore:tile.fuelLoader, Fuel Loader
 GalacticraftCore:tile.cargo:0, Cargo Loader
 GalacticraftCore:tile.cargo:4, Cargo Unloader
 GalacticraftCore:tile.rocketWorkbench, NASA Workbench
@@ -643,18 +647,18 @@ GalacticraftCore:tile.gcBlockCore:11, Aluminum Block
 GalacticraftCore:tile.gcBlockCore:12, Solid Meteoric Iron
 GalacticraftCore:tile.airLockFrame:0, Air Lock Frame
 GalacticraftCore:tile.airLockFrame:1, Air Lock Controller
-GalacticraftCore:tile.airLockSeal, Air Lock Seal
-GalacticraftCore:tile.enclosed:14, Sealable Aluminum Wire
-GalacticraftCore:tile.enclosed:15, Sealable Heavy Aluminum Wire
-GalacticraftCore:tile.enclosed:1, Sealable Oxygen Pipe
-GalacticraftCore:tile.spaceStationBase, Space Station arrival block
-GalacticraftCore:tile.dummyblock:0, tile.dummyblock.null.name
 minecraft:iron_horse_armor, Iron Horse Armor
 minecraft:golden_horse_armor, Gold Horse Armor
 minecraft:diamond_horse_armor, Diamond Horse Armor
 minecraft:lead, Lead
 minecraft:name_tag, Name Tag
 minecraft:command_block_minecart, Minecart with Command Block
+GalacticraftCore:tile.airLockSeal, Air Lock Seal
+GalacticraftCore:tile.enclosed:14, Sealable Aluminum Wire
+GalacticraftCore:tile.enclosed:15, Sealable Heavy Aluminum Wire
+GalacticraftCore:tile.enclosed:1, Sealable Oxygen Pipe
+GalacticraftCore:tile.spaceStationBase, Space Station arrival block
+GalacticraftCore:tile.dummyblock:0, tile.dummyblock.null.name
 GalacticraftCore:tile.parachest, Parachest
 GalacticraftCore:tile.solar:0, Basic Solar Panel
 GalacticraftCore:tile.solar:4, Advanced Solar Panel
@@ -7830,6 +7834,8 @@ appliedenergistics2:item.ItemMultiPart:220, ME Storage Bus
 appliedenergistics2:item.ItemMultiPart:400, ME Storage Monitor
 appliedenergistics2:item.ItemMultiPart:380, ME Terminal
 appliedenergistics2:item.ItemMultiPart:80, ME Toggle Bus
+ae2stuff:WirelessKit, Wireless Setup Kit
+ae2stuff:Visualiser, Network Visualisation Tool
 GalacticraftCore:item.bucketOil, Oil Bucket
 GalacticraftCore:item.bucketFuel, Fuel Bucket
 GalacticraftCore:item.spaceship:0, Tier 1 Rocket
