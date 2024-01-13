@@ -73,7 +73,7 @@
   540: Xenon
   550: Caesium
   560: Barium
-  570: Lanthanum
+  570: Lanthanium
   580: Cerium
   590: Praseodymium
   600: Neodymium
@@ -96,6 +96,7 @@
   770: Iridium
   780: Platinum
   790: Gold
+  791: Gold198
   800: Mercury
   810: Thallium
   820: Lead
@@ -113,11 +114,14 @@
   922: Uranium233
   930: Neptunium
   940: Plutonium
+  942: Plutonium240
   943: Plutonium241
   945: Plutonium243
+  946: Plutonium238
   947: Plutonium239
   950: Americium
   951: Americium241
+  952: Americium242
   960: Curium
   970: Berkelium
   980: Californium
@@ -878,10 +882,16 @@
  8032: LithiumHydroxide
  8033: LithiumChlorate
  8034: LithiumPerchlorate
+ 8035: FerricOxyhydroxide
+ 8036: PotassiumFluoride
+ 8037: SodiumFluoride
+ 8038: PotassiumHeptafluorotantalate
  8100: Sand
  8101: Soulsand
  8102: SluiceSand
  8103: PlatinumGroupSludge
+ 8104: RedSand
+ 8105: EndSand
  8200: Ashes
  8201: DarkAshes
  8202: VolcanicAshes
@@ -904,7 +914,7 @@
  8219: Bone
  8220: Gunpowder
  8221: Wood
- 8222: WoodSealed
+ 8222: WoodTreated
  8223: LiveRoot
  8224: WoodRubber
  8225: Ceramic
@@ -1021,7 +1031,7 @@
  8336: Charcoal
  8337: Lignite
  8338: Monazite
- 8339: Teslatite
+ 8340: Nikolite
  8340: Nikolite
  8341: Glowstone
  8342: Firestone
@@ -1041,7 +1051,7 @@
  8356: InfusedEntropy
  8357: InfusedOrder
  8358: InfusedBalance
- 8359: Electrotine
+ 8340: Nikolite
  8360: Peat
  8361: PeatBituminous
  8362: Anthracite
@@ -1140,6 +1150,12 @@
  8455: ClayRed
  8456: Gloomstone
  8457: VoidQuartz
+ 8458: BluePhosphorus
+ 8459: RedPhosphorus
+ 8460: WhitePhosphorus
+ 8461: NiobiumPentoxide
+ 8462: TantalumPentoxide
+ 8463: Sugilite
  8500: Stone
  8501: Concrete
  8502: Netherrack
@@ -1150,7 +1166,7 @@
  8507: GraniteRed
  8508: GraniteBlack
  8509: Redrock
- 8510: Gravel
+ 8500: Stone
  8511: Diorite
  8512: SpaceStone
  8513: MoonStone
@@ -1181,8 +1197,8 @@
  8622: AluminiumAlloy
  8630: Steel
  8631: BlackSteel
- 8632: RedSteel
- 8633: BlueSteel
+ 8632: BlueSteel
+ 8633: RedSteel
  8634: DamascusSteel
  8635: Tungstensteel
  8636: StainlessSteel
@@ -1219,7 +1235,7 @@
  8669: SolderingAlloy
  8670: ShadowIron
  8671: ShadowSteel
- 8672: IronWood
+ 8672: Ironwood
  8673: Steeleaf
  8674: Knightmetal
  8675: FierySteel
@@ -1237,6 +1253,9 @@
  8687: YttriumBariumCuprate
  8688: NiobiumNitride
  8689: NiobiumTitanium
+ 8690: MeteoricBlackSteel
+ 8691: MeteoricBlueSteel
+ 8692: MeteoricRedSteel
  8700: AluminiumBrass
  8701: Aredrite
  8702: Alumite
@@ -1255,7 +1274,7 @@
  8716: Blutonium
  8717: Cyanite
  8718: BedrockHSLAAlloy
- 8719: Osmium
+  320: Germanium
  8720: Manasteel
  8721: Terrasteel
  8722: ElvenElementium
@@ -1274,7 +1293,7 @@
  8735: GaiaSpirit
  8736: Endium
  8737: NikolineAlloy
- 8738: TeslatineAlloy
+ 8737: NikolineAlloy
  8739: Mauftrium
  8740: Elvorium
  8741: NiflheimPower
@@ -1314,6 +1333,7 @@
  8777: Inolashite
  8778: Haderoth
  8779: Celenegil
+ 8780: WorkersAlloy
  8781: Desichalkos
  8782: Tartarite
  8783: Amordrine
@@ -1333,6 +1353,17 @@
  8800: CosmicNeutronium
  8801: Infinity
  8802: TantalumHafniumCarbide
+ 8803: CastIron
+ 8804: Mingrade
+ 8805: Unstable
+ 8806: ClayCompound
+ 8807: EndSteel
+ 8808: EnergeticSilver
+ 8809: MelodicAlloy
+ 8810: StellarAlloy
+ 8811: VividAlloy
+ 8812: CrystallineAlloy
+ 8813: CrystallinePinkSlime
  9000: Pumice
  9001: Diatomite
  9003: BasalticMineralSand
@@ -1354,6 +1385,7 @@
  9106: BrownLimonite
  9107: Calcite
  9108: Cassiterite
+ 9109: Realgar
  9110: Celestine
  9111: Chalcopyrite
  9112: Chalk
@@ -1365,7 +1397,7 @@
  9118: Garnierite
  9119: Grossular
  9120: Ilmenite
- 9121: Magnesite
+ 8016: MagnesiumCarbonate
  9122: Magnetite
  9123: Molybdenite
  9124: Powellite
@@ -1387,7 +1419,7 @@
  9140: PotassiumFeldspar
  9141: Biotite
  9103: Asbestos
- 9143: Ferrovanadium
+ 9143: VanadiumMagnetite
  9144: Bastnasite
  9145: Pentlandite
  9146: Spodumene
@@ -1395,10 +1427,10 @@
  9148: Tantalite
  9149: Lepidolite
  9150: Glauconite
- 9151: GlauconiteSand
+ 9150: Glauconite
  9152: Vermiculite
  9153: Bentonite
- 9154: FullersEarth
+ 9154: Palygorskite
  9155: Pitchblende
  9156: Malachite
  9157: Mirabilite
@@ -1412,8 +1444,8 @@
  9165: Zeolite
  9166: Kyanite
  9167: Kaolinite
- 9168: Talc
- 9169: Soapstone
+ 9169: Talc
+ 9169: Talc
  9170: Gneiss
  9171: Greenschist
  9172: Greenstone
@@ -1473,6 +1505,12 @@
  9226: HexoriumGreen
  9228: HexoriumBlue
  9239: HexoriumWhite
+ 9243: ClayBrick
+ 9244: Grayschist
+ 9245: Pinkschist
+ 9246: Columbite
+ 9247: Coltan
+ 9248: Deepslate
  9300: Oak
  9301: Birch
  9302: Spruce
@@ -1582,6 +1620,7 @@
  9406: WoodTainted
  9407: WoodBleached
  9408: Foxfirewood
+ 9409: BlueSpruce
  9700: MeatRaw
  9701: MeatCooked
  9702: Wheat
@@ -1665,9 +1704,9 @@
  9843: CarbonTrioxide
  9844: DisulfuricAcid
  9850: Oil
- 9851: Oilsands
+ 9851: OilSand
  9852: CrudeOil
- 9853: Oilshale
+ 9853: OilShale
  9860: Fuel
  9861: NitroFuel
  9862: Kerosine
@@ -1692,3 +1731,4 @@
  9884: UUAmplifier
  9885: UUMatter
  9886: Latex
+ 9887: WhaleOil
